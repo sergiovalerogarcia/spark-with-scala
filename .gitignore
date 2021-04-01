@@ -1,2 +1,7 @@
 *.secrets
 materials
+.metals
+target
+project
+data
+.bloop

@@ -1,9 +1,6 @@
 #!/bin/bash
 
-apt-get update && \
-  apt-get install -y --no-install-recommends  git
-
-USER_HOME=/root
+USER_HOME=/home/sbtuser
 
 git clone https://github.com/magicmonty/bash-git-prompt.git $USER_HOME/.bash-git-prompt --depth=1
 
